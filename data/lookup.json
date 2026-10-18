@@ -1,5 +1,6 @@
 [
-  {"category":"Thanh mẫu","label":"b","detail":"Âm môi, không bật hơi","example":"爸爸 · bàba"},
+  {"category":"Trung","label":"p","detail":"Âm môi, bật hơi","example":"朋友 · péngyou"},
+  
   {"category":"Thanh mẫu","label":"p","detail":"Âm môi, bật hơi","example":"朋友 · péngyou"},
   {"category":"Thanh mẫu","label":"m","detail":"Âm mũi hai môi","example":"妈妈 · māma"},
   {"category":"Thanh mẫu","label":"f","detail":"Âm môi răng","example":"饭 · fàn"},
