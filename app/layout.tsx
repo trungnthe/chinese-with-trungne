@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Hán Tự — Học từ vựng tiếng Trung',
-  description: 'Học từ vựng tiếng Trung theo buổi, nghe phát âm và luyện tập với Hán Tự.',
+  title: 'Chinese-With-Trungne — Học từ vựng tiếng Trung',
+  description: 'Học từ vựng tiếng Trung theo buổi, nghe phát âm và luyện tập cùng Chinese-With-Trungne.',
   generator: 'v0.app',
   icons: {
     icon: [
