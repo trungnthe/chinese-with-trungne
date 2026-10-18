@@ -2,36 +2,646 @@
   "sessions": [
     {
       "id": 1,
-      "title": "Chào hỏi cơ bản",
-      "description": "Những câu nói đầu tiên khi gặp một người bạn mới.",
+      "title": "Chào hỏi & Giới thiệu cơ bản",
+      "description": "Những từ vựng chào hỏi, xưng hô và làm quen đầu tiên.",
       "level": "HSK 1",
       "words": [
-        { "id": 1, "hanzi": "你好", "pinyin": "nǐ hǎo", "meaning": "xin chào", "example": "你好，很高兴认识你。", "exampleMeaning": "Xin chào, rất vui được làm quen với bạn.", "sound": "" },
-        { "id": 2, "hanzi": "谢谢", "pinyin": "xièxie", "meaning": "cảm ơn", "example": "谢谢你的帮助。", "exampleMeaning": "Cảm ơn sự giúp đỡ của bạn.", "sound": "" },
-        { "id": 3, "hanzi": "再见", "pinyin": "zàijiàn", "meaning": "tạm biệt", "example": "明天见，再见！", "exampleMeaning": "Hẹn gặp ngày mai, tạm biệt!", "sound": "" },
-        { "id": 4, "hanzi": "对不起", "pinyin": "duìbuqǐ", "meaning": "xin lỗi", "example": "对不起，我来晚了。", "exampleMeaning": "Xin lỗi, tôi đến muộn.", "sound": "" },
-        { "id": 5, "hanzi": "没关系", "pinyin": "méi guānxi", "meaning": "không sao", "example": "没关系，别担心。", "exampleMeaning": "Không sao, đừng lo.", "sound": "" }
+        {
+          "id": 1,
+          "hanzi": "你好",
+          "pinyin": "nǐ hǎo",
+          "meaning": "xin chào",
+          "example": "你好，很高兴认识你。",
+          "exampleMeaning": "Xin chào, rất vui được làm quen với bạn.",
+          "sound": ""
+        },
+        {
+          "id": 2,
+          "hanzi": "请问",
+          "pinyin": "qǐngwèn",
+          "meaning": "xin hỏi",
+          "example": "请问，你叫什么名字？",
+          "exampleMeaning": "Xin hỏi, bạn tên là gì?",
+          "sound": ""
+        },
+        {
+          "id": 3,
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "bạn, cậu",
+          "example": "你爱我，我爱你。",
+          "exampleMeaning": "Bạn yêu tôi, tôi yêu bạn.",
+          "sound": ""
+        },
+        {
+          "id": 4,
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "tôi, tớ, mình",
+          "example": "我叫陈天中。",
+          "exampleMeaning": "Tôi tên là Trần Thiên Trung.",
+          "sound": ""
+        },
+        {
+          "id": 5,
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "meaning": "gọi, tên là",
+          "example": "你叫什么名字？",
+          "exampleMeaning": "Bạn tên là gì?",
+          "sound": ""
+        },
+        {
+          "id": 6,
+          "hanzi": "什么",
+          "pinyin": "shénme",
+          "meaning": "cái gì",
+          "example": "你叫什么名字？",
+          "exampleMeaning": "Bạn tên là gì?",
+          "sound": ""
+        },
+        {
+          "id": 7,
+          "hanzi": "名字",
+          "pinyin": "míngzi",
+          "meaning": "tên",
+          "example": "你的名字是什么？",
+          "exampleMeaning": "Tên của bạn là gì?",
+          "sound": ""
+        },
+        {
+          "id": 8,
+          "hanzi": "大家",
+          "pinyin": "dàjiā",
+          "meaning": "mọi người",
+          "example": "大家好！",
+          "exampleMeaning": "Chào mọi người!",
+          "sound": ""
+        },
+        {
+          "id": 9,
+          "hanzi": "学生",
+          "pinyin": "xuésheng",
+          "meaning": "học sinh",
+          "example": "我是学生。",
+          "exampleMeaning": "Tôi là học sinh.",
+          "sound": ""
+        },
+        {
+          "id": 10,
+          "hanzi": "们",
+          "pinyin": "men",
+          "meaning": "hậu tố chỉ số nhiều (các, bọn, chúng)",
+          "example": "同学们好！",
+          "exampleMeaning": "Chào các bạn học sinh!",
+          "sound": ""
+        }
       ]
     },
     {
       "id": 2,
-      "title": "Gia đình & bạn bè",
-      "description": "Từ vựng để kể về những người thân yêu.",
+      "title": "Xưng hô tôn trọng & Cảm ơn, Tạm biệt",
+      "description": "Từ vựng về xưng hô lịch sự, xin lỗi, cảm ơn và chào tạm biệt.",
       "level": "HSK 1",
       "words": [
-        { "id": 6, "hanzi": "家人", "pinyin": "jiārén", "meaning": "gia đình", "example": "我的家人都很好。", "exampleMeaning": "Gia đình của tôi đều rất khỏe.", "sound": "" },
-        { "id": 7, "hanzi": "朋友", "pinyin": "péngyou", "meaning": "bạn bè", "example": "他是我的好朋友。", "exampleMeaning": "Anh ấy là bạn tốt của tôi.", "sound": "" },
-        { "id": 8, "hanzi": "妈妈", "pinyin": "māma", "meaning": "mẹ", "example": "我妈妈喜欢喝茶。", "exampleMeaning": "Mẹ tôi thích uống trà.", "sound": "" }
+        {
+          "id": 11,
+          "hanzi": "老师",
+          "pinyin": "lǎoshī",
+          "meaning": "thầy giáo, cô giáo",
+          "example": "王老师，你好！",
+          "exampleMeaning": "Cô Vương, xin chào!",
+          "sound": ""
+        },
+        {
+          "id": 12,
+          "hanzi": "您",
+          "pinyin": "nín",
+          "meaning": "ngài, ông, bà (kính ngữ)",
+          "example": "老师，您好！",
+          "exampleMeaning": "Thưa cô, em chào cô!",
+          "sound": ""
+        },
+        {
+          "id": 13,
+          "hanzi": "你们",
+          "pinyin": "nǐmen",
+          "meaning": "các bạn",
+          "example": "你们好！",
+          "exampleMeaning": "Chào các bạn!",
+          "sound": ""
+        },
+        {
+          "id": 14,
+          "hanzi": "不",
+          "pinyin": "bù",
+          "meaning": "không (phủ định)",
+          "example": "我不是安妮。",
+          "exampleMeaning": "Tôi không phải là Anni.",
+          "sound": ""
+        },
+        {
+          "id": 15,
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "là",
+          "example": "我是白家月。",
+          "exampleMeaning": "Tôi là Bạch Gia Nguyệt.",
+          "sound": ""
+        },
+        {
+          "id": 16,
+          "hanzi": "对不起",
+          "pinyin": "duìbuqǐ",
+          "meaning": "xin lỗi",
+          "example": "对不起！",
+          "exampleMeaning": "Xin lỗi!",
+          "sound": ""
+        },
+        {
+          "id": 17,
+          "hanzi": "没关系",
+          "pinyin": "méi guānxi",
+          "meaning": "không sao",
+          "example": "没关系！",
+          "exampleMeaning": "Không sao!",
+          "sound": ""
+        },
+        {
+          "id": 18,
+          "hanzi": "没事",
+          "pinyin": "méishì",
+          "meaning": "không sao cả, ổn",
+          "example": "没事，别担心。",
+          "exampleMeaning": "Không sao đâu, đừng lo.",
+          "sound": ""
+        },
+        {
+          "id": 19,
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "meaning": "rất",
+          "example": "很高兴认识你。",
+          "exampleMeaning": "Rất vui được làm quen với bạn.",
+          "sound": ""
+        },
+        {
+          "id": 20,
+          "hanzi": "高兴",
+          "pinyin": "gāoxìng",
+          "meaning": "vui vẻ",
+          "example": "我很高兴。",
+          "exampleMeaning": "Tôi rất vui.",
+          "sound": ""
+        },
+        {
+          "id": 21,
+          "hanzi": "认识",
+          "pinyin": "rènshi",
+          "meaning": "quen biết",
+          "example": "认识你很高兴。",
+          "exampleMeaning": "Rất vui được quen biết bạn.",
+          "sound": ""
+        },
+        {
+          "id": 22,
+          "hanzi": "也",
+          "pinyin": "yě",
+          "meaning": "cũng",
+          "example": "认识你我也很高兴。",
+          "exampleMeaning": "Quen biết bạn tôi cũng rất vui.",
+          "sound": ""
+        },
+        {
+          "id": 23,
+          "hanzi": "谢谢",
+          "pinyin": "xièxie",
+          "meaning": "cảm ơn",
+          "example": "谢谢你的帮助。",
+          "exampleMeaning": "Cảm ơn sự giúp đỡ của bạn.",
+          "sound": ""
+        },
+        {
+          "id": 24,
+          "hanzi": "不客气",
+          "pinyin": "bú kèqi",
+          "meaning": "đừng khách sáo",
+          "example": "不客气！",
+          "exampleMeaning": "Không có chi!",
+          "sound": ""
+        },
+        {
+          "id": 25,
+          "hanzi": "同学",
+          "pinyin": "tóngxué",
+          "meaning": "bạn học",
+          "example": "同学，你好！",
+          "exampleMeaning": "Bạn học, xin chào!",
+          "sound": ""
+        },
+        {
+          "id": 26,
+          "hanzi": "再见",
+          "pinyin": "zàijiàn",
+          "meaning": "tạm biệt",
+          "example": "同学们，再见！",
+          "exampleMeaning": "Các bạn học sinh, tạm biệt!",
+          "sound": ""
+        }
       ]
     },
     {
       "id": 3,
-      "title": "Thời gian hằng ngày",
-      "description": "Nói về lịch trình và những hoạt động quen thuộc.",
+      "title": "Tôi là người Trung Quốc",
+      "description": "Từ vựng về quốc gia, nghề nghiệp, đại từ chỉ định và câu hỏi với '吗'.",
       "level": "HSK 1",
       "words": [
-        { "id": 9, "hanzi": "今天", "pinyin": "jīntiān", "meaning": "hôm nay", "example": "今天是星期一。", "exampleMeaning": "Hôm nay là thứ Hai.", "sound": "" },
-        { "id": 10, "hanzi": "明天", "pinyin": "míngtiān", "meaning": "ngày mai", "example": "明天见！", "exampleMeaning": "Hẹn gặp ngày mai!", "sound": "" }
+        {
+          "id": 1,
+          "hanzi": "人",
+          "pinyin": "rén",
+          "meaning": "người, con người",
+          "example": "我是中国人。",
+          "exampleMeaning": "Tôi là người Trung Quốc.",
+          "sound": ""
+        },
+        {
+          "id": 2,
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": "trợ từ sở hữu (của)",
+          "example": "这是我的老师。",
+          "exampleMeaning": "Đây là giáo viên của tôi.",
+          "sound": ""
+        },
+        {
+          "id": 3,
+          "hanzi": "中国",
+          "pinyin": "Zhōngguó",
+          "meaning": "Trung Quốc",
+          "example": "我是中国人。",
+          "exampleMeaning": "Tôi là người Trung Quốc.",
+          "sound": ""
+        },
+        {
+          "id": 4,
+          "hanzi": "法国",
+          "pinyin": "Fǎguó",
+          "meaning": "nước Pháp",
+          "example": "她不是法国人。",
+          "exampleMeaning": "Cô ấy không phải là người Pháp.",
+          "sound": ""
+        },
+        {
+          "id": 5,
+          "hanzi": "中文",
+          "pinyin": "Zhōngwén",
+          "meaning": "tiếng Trung",
+          "example": "这是我的中文老师。",
+          "exampleMeaning": "Đây là giáo viên tiếng Trung của tôi.",
+          "sound": ""
+        },
+        {
+          "id": 6,
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "meaning": "đây, này",
+          "example": "这是书。",
+          "exampleMeaning": "Đây là sách.",
+          "sound": ""
+        },
+        {
+          "id": 7,
+          "hanzi": "谁",
+          "pinyin": "shéi / shuí",
+          "meaning": "ai",
+          "example": "他是谁？",
+          "exampleMeaning": "Anh ấy là ai?",
+          "sound": ""
+        },
+        {
+          "id": 8,
+          "hanzi": "女朋友",
+          "pinyin": "nǚpéngyou",
+          "meaning": "bạn gái",
+          "example": "她是我女朋友。",
+          "exampleMeaning": "Cô ấy là bạn gái tôi.",
+          "sound": ""
+        },
+        {
+          "id": 9,
+          "hanzi": "哪",
+          "pinyin": "nǎ",
+          "meaning": "nào, đâu",
+          "example": "你是哪国人？",
+          "exampleMeaning": "Bạn là người nước nào?",
+          "sound": ""
+        },
+        {
+          "id": 10,
+          "hanzi": "国",
+          "pinyin": "guó",
+          "meaning": "quốc gia, đất nước",
+          "example": "美国 / 中国",
+          "exampleMeaning": "Mỹ / Trung Quốc",
+          "sound": ""
+        },
+        {
+          "id": 11,
+          "hanzi": "泰国",
+          "pinyin": "Tàiguó",
+          "meaning": "Thái Lan",
+          "example": "她也是泰国人。",
+          "exampleMeaning": "Cô ấy cũng là người Thái Lan.",
+          "sound": ""
+        },
+        {
+          "id": 12,
+          "hanzi": "喂",
+          "pinyin": "wèi",
+          "meaning": "alo, ê, này",
+          "example": "喂，一飞！",
+          "exampleMeaning": "Alo, Nhất Phi!",
+          "sound": ""
+        },
+        {
+          "id": 13,
+          "hanzi": "姐姐",
+          "pinyin": "jiějie",
+          "meaning": "chị gái",
+          "example": "这是我姐姐。",
+          "exampleMeaning": "Đây là chị gái tôi.",
+          "sound": ""
+        },
+        {
+          "id": 14,
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "meaning": "công việc, làm việc",
+          "example": "你工作忙吗？",
+          "exampleMeaning": "Công việc của bạn có bận không?",
+          "sound": ""
+        },
+        {
+          "id": 15,
+          "hanzi": "还",
+          "pinyin": "hái",
+          "meaning": "vẫn",
+          "example": "我还很忙。",
+          "exampleMeaning": "Tôi vẫn rất bận.",
+          "sound": ""
+        },
+        {
+          "id": 16,
+          "hanzi": "忙",
+          "pinyin": "máng",
+          "meaning": "bận",
+          "example": "你也很忙吗？",
+          "exampleMeaning": "Bạn cũng rất bận à?",
+          "sound": ""
+        },
+        {
+          "id": 17,
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "meaning": "trợ từ nghi vấn ở cuối câu",
+          "example": "你是中国人吗？",
+          "exampleMeaning": "Bạn là người Trung Quốc phải không?",
+          "sound": ""
+        },
+        {
+          "id": 18,
+          "hanzi": "对",
+          "pinyin": "duì",
+          "meaning": "đúng, phải",
+          "example": "对，还很忙。",
+          "exampleMeaning": "Đúng, vẫn rất bận.",
+          "sound": ""
+        },
+        {
+          "id": 19,
+          "hanzi": "太",
+          "pinyin": "tài",
+          "meaning": "quá, rất, lắm",
+          "example": "我不太忙。",
+          "exampleMeaning": "Tôi không quá bận.",
+          "sound": ""
+        },
+        {
+          "id": 20,
+          "hanzi": "我们",
+          "pinyin": "wǒmen",
+          "meaning": "chúng tôi, chúng mình",
+          "example": "我们很想你。",
+          "exampleMeaning": "Chúng tôi rất nhớ bạn.",
+          "sound": ""
+        },
+        {
+          "id": 21,
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "nhớ, muốn",
+          "example": "我也想你们。",
+          "exampleMeaning": "Tôi cũng nhớ các bạn.",
+          "sound": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tôi có hai đứa con",
+      "description": "Từ vựng về số lượng, gia đình, các thành viên trong nhà và cách hỏi tuổi.",
+      "level": "HSK 1",
+      "words": [
+        {
+          "id": 22,
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "meaning": "có",
+          "example": "我有两个孩子。",
+          "exampleMeaning": "Tôi có hai đứa con.",
+          "sound": ""
+        },
+        {
+          "id": 23,
+          "hanzi": "多少",
+          "pinyin": "duōshǎo",
+          "meaning": "bao nhiêu",
+          "example": "你有多少钱？",
+          "exampleMeaning": "Bạn có bao nhiêu tiền?",
+          "sound": ""
+        },
+        {
+          "id": 24,
+          "hanzi": "个",
+          "pinyin": "gè",
+          "meaning": "lượng từ chung (cái, người...)",
+          "example": "一个学生",
+          "exampleMeaning": "Một học sinh",
+          "sound": ""
+        },
+        {
+          "id": 25,
+          "hanzi": "哥哥",
+          "pinyin": "gēge",
+          "meaning": "anh trai",
+          "example": "我有两个哥哥。",
+          "exampleMeaning": "Tôi có hai người anh trai.",
+          "sound": ""
+        },
+        {
+          "id": 26,
+          "hanzi": "呢",
+          "pinyin": "ne",
+          "meaning": "trợ từ ngữ khí dùng để hỏi lại",
+          "example": "你呢？",
+          "exampleMeaning": "Còn bạn thì sao?",
+          "sound": ""
+        },
+        {
+          "id": 27,
+          "hanzi": "没有",
+          "pinyin": "méiyǒu",
+          "meaning": "không có",
+          "example": "我没有哥哥。",
+          "exampleMeaning": "Tôi không có anh trai.",
+          "sound": ""
+        },
+        {
+          "id": 28,
+          "hanzi": "家",
+          "pinyin": "jiā",
+          "meaning": "gia đình, nhà",
+          "example": "你家有几口人？",
+          "exampleMeaning": "Nhà bạn có mấy người?",
+          "sound": ""
+        },
+        {
+          "id": 29,
+          "hanzi": "几",
+          "pinyin": "jǐ",
+          "meaning": "mấy, bao nhiêu (hỏi số lượng nhỏ)",
+          "example": "你几岁？",
+          "exampleMeaning": "Bạn mấy tuổi?",
+          "sound": ""
+        },
+        {
+          "id": 30,
+          "hanzi": "口",
+          "pinyin": "kǒu",
+          "meaning": "lượng từ chỉ thành viên gia đình",
+          "example": "四口人",
+          "exampleMeaning": "Bốn người trong gia đình",
+          "sound": ""
+        },
+        {
+          "id": 31,
+          "hanzi": "爸爸",
+          "pinyin": "bàba",
+          "meaning": "bố, ba",
+          "example": "我爱爸爸。",
+          "exampleMeaning": "Tôi yêu bố.",
+          "sound": ""
+        },
+        {
+          "id": 32,
+          "hanzi": "妈妈",
+          "pinyin": "māma",
+          "meaning": "mẹ, má",
+          "example": "妈妈很忙。",
+          "exampleMeaning": "Mẹ rất bận.",
+          "sound": ""
+        },
+        {
+          "id": 33,
+          "hanzi": "妹妹",
+          "pinyin": "mèimei",
+          "meaning": "em gái",
+          "example": "我有妹妹。",
+          "exampleMeaning": "Tôi có em gái.",
+          "sound": ""
+        },
+        {
+          "id": 34,
+          "hanzi": "和",
+          "pinyin": "hé",
+          "meaning": "và, cùng",
+          "example": "爸爸和妈妈",
+          "exampleMeaning": "Bố và mẹ",
+          "sound": ""
+        },
+        {
+          "id": 35,
+          "hanzi": "儿子",
+          "pinyin": "érzi",
+          "meaning": "con trai",
+          "example": "这是我儿子。",
+          "exampleMeaning": "Đây là con trai tôi.",
+          "sound": ""
+        },
+        {
+          "id": 36,
+          "hanzi": "孩子",
+          "pinyin": "háizi",
+          "meaning": "con, trẻ con",
+          "example": "我有两个孩子。",
+          "exampleMeaning": "Tôi có hai đứa con.",
+          "sound": ""
+        },
+        {
+          "id": 37,
+          "hanzi": "女儿",
+          "pinyin": "nǚ'ér",
+          "meaning": "con gái",
+          "example": "我有一个女儿。",
+          "exampleMeaning": "Tôi có một cô con gái.",
+          "sound": ""
+        },
+        {
+          "id": 38,
+          "hanzi": "岁",
+          "pinyin": "suì",
+          "meaning": "tuổi",
+          "example": "他今年五岁。",
+          "exampleMeaning": "Năm nay cậu ấy năm tuổi.",
+          "sound": ""
+        },
+        {
+          "id": 39,
+          "hanzi": "他",
+          "pinyin": "tā",
+          "meaning": "anh ấy, cậu ấy, ông ấy",
+          "example": "他是我老师。",
+          "exampleMeaning": "Cậu ấy là giáo viên của tôi.",
+          "sound": ""
+        },
+        {
+          "id": 40,
+          "hanzi": "今年",
+          "pinyin": "jīnnián",
+          "meaning": "năm nay",
+          "example": "我今年18岁。",
+          "exampleMeaning": "Tôi năm nay 18 tuổi.",
+          "sound": ""
+        },
+        {
+          "id": 41,
+          "hanzi": "多",
+          "pinyin": "duō",
+          "meaning": "nhiều, bao nhiêu (hỏi mức độ/tuổi)",
+          "example": "你今年多大？",
+          "exampleMeaning": "Năm nay bạn bao nhiêu tuổi?",
+          "sound": ""
+        },
+        {
+          "id": 42,
+          "hanzi": "大",
+          "pinyin": "dà",
+          "meaning": "lớn, to",
+          "example": "他很大。",
+          "exampleMeaning": "Anh ấy lớn tuổi / to lớn.",
+          "sound": ""
+        }
       ]
     }
   ]
