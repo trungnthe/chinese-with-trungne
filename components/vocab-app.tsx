@@ -23,12 +23,19 @@ export function VocabApp() {
   const words = useMemo(() => shuffled ? [...session.words].sort(() => Math.random() - 0.5) : session.words, [session, shuffled])
   const word = words[index % words.length]
   const lookupCategory = mode === 'initials' ? 'Thanh mẫu' : mode === 'finals' ? 'Vận mẫu' : 'Bộ thủ'
-  const filteredLookup = lookupItems.filter((item) => item.category === lookupCategory && `${item.label} ${item.detail} ${item.example}`.toLowerCase().includes(lookupQuery.toLowerCase()))
+  const filteredLookup = (lookupItems as LookupItem[]).filter((item) => item.category === lookupCategory && `${item.label} ${item.detail} ${item.example}`.toLowerCase().includes(lookupQuery.toLowerCase()))
   const progress = ((index + 1) / words.length) * 100
 
   function chooseSession(id: number) { setSelectedId(id); setIndex(0); setMode('learn'); setAnswer(''); setResult(null); setShuffled(false) }
   function next() { setIndex((current) => (current + 1) % words.length); setAnswer(''); setResult(null) }
-  function checkAnswer() { setResult(answer.trim().toLowerCase() === word.meaning.toLowerCase() ? 'correct' : 'wrong') }
+  function checkAnswer() {
+    const normalizedAnswer = answer.trim().toLowerCase()
+    const acceptedMeanings = word.meaning
+      .split(/[,，、/|]/)
+      .map((meaning) => meaning.trim().toLowerCase())
+      .filter(Boolean)
+    setResult(acceptedMeanings.includes(normalizedAnswer) ? 'correct' : 'wrong')
+  }
   useEffect(() => {
     function handleDocumentKeyDown(event: KeyboardEvent) {
       if (mode !== 'practice' || event.key !== 'Enter' || event.isComposing || event.keyCode === 229) return
