@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { ArrowRight, BookOpen, Check, ChevronRight, Flame, Headphones, RotateCcw, Sparkles, Volume2, X } from 'lucide-react'
 
 type Word = { id: number; hanzi: string; pinyin: string; meaning: string; example: string; exampleMeaning: string; sound: string }
@@ -40,6 +40,19 @@ export function VocabApp() {
   function chooseSession(id: number) { setSelectedId(id); setIndex(0); setMode('learn'); setAnswer(''); setResult(null); setShuffled(false) }
   function next() { setIndex((current) => (current + 1) % words.length); setAnswer(''); setResult(null) }
   function checkAnswer() { setResult(answer.trim().toLowerCase() === word.meaning.toLowerCase() ? 'correct' : 'wrong') }
+  useEffect(() => {
+    function handleDocumentKeyDown(event: KeyboardEvent) {
+      if (mode !== 'practice' || event.key !== 'Enter' || event.isComposing || event.keyCode === 229) return
+      const target = event.target as HTMLElement
+      if (target.tagName !== 'INPUT' && target.tagName !== 'TEXTAREA') return
+      event.preventDefault()
+      if (result) next()
+      else checkAnswer()
+    }
+    document.addEventListener('keydown', handleDocumentKeyDown)
+    return () => document.removeEventListener('keydown', handleDocumentKeyDown)
+  }, [mode, result, answer, word])
+
   function speak() {
     if ('speechSynthesis' in window) { window.speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(word.hanzi); utterance.lang = 'zh-CN'; utterance.rate = 0.8; window.speechSynthesis.speak(utterance) }
   }
