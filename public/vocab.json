@@ -1,0 +1,38 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "title": "Chào hỏi cơ bản",
+      "description": "Những câu nói đầu tiên khi gặp một người bạn mới.",
+      "level": "HSK 1",
+      "words": [
+        { "id": 1, "hanzi": "你好", "pinyin": "nǐ hǎo", "meaning": "xin chào", "example": "你好，很高兴认识你。", "exampleMeaning": "Xin chào, rất vui được làm quen với bạn.", "sound": "" },
+        { "id": 2, "hanzi": "谢谢", "pinyin": "xièxie", "meaning": "cảm ơn", "example": "谢谢你的帮助。", "exampleMeaning": "Cảm ơn sự giúp đỡ của bạn.", "sound": "" },
+        { "id": 3, "hanzi": "再见", "pinyin": "zàijiàn", "meaning": "tạm biệt", "example": "明天见，再见！", "exampleMeaning": "Hẹn gặp ngày mai, tạm biệt!", "sound": "" },
+        { "id": 4, "hanzi": "对不起", "pinyin": "duìbuqǐ", "meaning": "xin lỗi", "example": "对不起，我来晚了。", "exampleMeaning": "Xin lỗi, tôi đến muộn.", "sound": "" },
+        { "id": 5, "hanzi": "没关系", "pinyin": "méi guānxi", "meaning": "không sao", "example": "没关系，别担心。", "exampleMeaning": "Không sao, đừng lo.", "sound": "" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gia đình & bạn bè",
+      "description": "Từ vựng để kể về những người thân yêu.",
+      "level": "HSK 1",
+      "words": [
+        { "id": 6, "hanzi": "家人", "pinyin": "jiārén", "meaning": "gia đình", "example": "我的家人都很好。", "exampleMeaning": "Gia đình của tôi đều rất khỏe.", "sound": "" },
+        { "id": 7, "hanzi": "朋友", "pinyin": "péngyou", "meaning": "bạn bè", "example": "他是我的好朋友。", "exampleMeaning": "Anh ấy là bạn tốt của tôi.", "sound": "" },
+        { "id": 8, "hanzi": "妈妈", "pinyin": "māma", "meaning": "mẹ", "example": "我妈妈喜欢喝茶。", "exampleMeaning": "Mẹ tôi thích uống trà.", "sound": "" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Thời gian hằng ngày",
+      "description": "Nói về lịch trình và những hoạt động quen thuộc.",
+      "level": "HSK 1",
+      "words": [
+        { "id": 9, "hanzi": "今天", "pinyin": "jīntiān", "meaning": "hôm nay", "example": "今天是星期一。", "exampleMeaning": "Hôm nay là thứ Hai.", "sound": "" },
+        { "id": 10, "hanzi": "明天", "pinyin": "míngtiān", "meaning": "ngày mai", "example": "明天见！", "exampleMeaning": "Hẹn gặp ngày mai!", "sound": "" }
+      ]
+    }
+  ]
+}
